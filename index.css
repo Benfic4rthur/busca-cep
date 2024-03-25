@@ -6,45 +6,57 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 5vw;
+    /* Usando vw para ajustar o tamanho com base na largura da viewport */
 }
 
 input {
-    font-size: 15px;
-    padding: 9px;
-    border-radius: 8px;
+    font-size: 3vw;
+    /* Usando vw para ajustar o tamanho com base na largura da viewport */
+    padding: 2.5vw;
+    /* Usando vw para ajustar o preenchimento com base na largura da viewport */
+    border-radius: 2vw;
+    /* Usando vw para ajustar o raio da borda com base na largura da viewport */
 }
 
 button {
-    font-size: 15px;
-    padding: 10px;
+    font-size: 3vw;
+    /* Usando vw para ajustar o tamanho com base na largura da viewport */
+    padding: 3vw;
+    /* Usando vw para ajustar o preenchimento com base na largura da viewport */
     background-color: #0071AD;
-    border-radius: 8px;
-    border: #0071AD;
+    border-radius: 2vw;
+    /* Usando vw para ajustar o raio da borda com base na largura da viewport */
+    border: none;
     color: #fff;
     cursor: pointer;
-    transition: 1s;
+    transition: background-color 1s, color 1s;
+    /* Combinação de transições em uma linha */
 }
 
 button:hover {
     background-color: #06588e;
-    color: #fff;
-    transition: 1s;
 }
 
 div#resultado {
-    margin-top: 20px;
-    width: 600px;
+    margin-top: 5vh;
+    /* Usando vh para ajustar a margem com base na altura da viewport */
+    width: 90vw;
+    /* Usando vw para ajustar a largura com base na largura da viewport */
     margin: 0 auto;
-    margin-top: 20px;
     color: #ffd400;
-    border-radius: 10px;
-    font-size: 5px;
+    border-radius: 2vw;
+    /* Usando vw para ajustar o raio da borda com base na largura da viewport */
+    font-size: 3vw;
+    /* Usando vw para ajustar o tamanho com base na largura da viewport */
 }
 
 h1#result {
-    font-size: 30px;
-    padding: 10px;
+    font-size: 4vw;
+    /* Usando vw para ajustar o tamanho com base na largura da viewport */
+    padding: 2vw;
+    /* Usando vw para ajustar o preenchimento com base na largura da viewport */
     background-color: #f0f0f0;
-    border-radius: 10px;
+    border-radius: 2vw;
+    /* Usando vw para ajustar o raio da borda com base na largura da viewport */
 }
