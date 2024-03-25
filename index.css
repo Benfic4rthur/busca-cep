@@ -6,27 +6,27 @@ body {
 }
 
 h1 {
-    font-size: 5vw;
-    /* Usando vw para ajustar o tamanho com base na largura da viewport */
+    font-size: min(40px, 6vw);
+    /* Define o tamanho máximo de 40px ou 6vw */
 }
 
 input {
-    font-size: 3vw;
-    /* Usando vw para ajustar o tamanho com base na largura da viewport */
-    padding: 2.5vw;
-    /* Usando vw para ajustar o preenchimento com base na largura da viewport */
-    border-radius: 2vw;
-    /* Usando vw para ajustar o raio da borda com base na largura da viewport */
+    font-size: min(15px, 2.5vw);
+    /* Define o tamanho máximo de 15px ou 2.5vw */
+    padding: min(9px, 1.5vw);
+    /* Define o tamanho máximo de 9px ou 1.5vw */
+    border-radius: min(8px, 1.3vw);
+    /* Define o raio máximo de 8px ou 1.3vw */
 }
 
 button {
-    font-size: 3vw;
-    /* Usando vw para ajustar o tamanho com base na largura da viewport */
-    padding: 3vw;
-    /* Usando vw para ajustar o preenchimento com base na largura da viewport */
+    font-size: min(15px, 2.5vw);
+    /* Define o tamanho máximo de 15px ou 2.5vw */
+    padding: min(10px, 1.7vw);
+    /* Define o tamanho máximo de 10px ou 1.7vw */
     background-color: #0071AD;
-    border-radius: 2vw;
-    /* Usando vw para ajustar o raio da borda com base na largura da viewport */
+    border-radius: min(8px, 1.3vw);
+    /* Define o raio máximo de 8px ou 1.3vw */
     border: none;
     color: #fff;
     cursor: pointer;
@@ -39,24 +39,24 @@ button:hover {
 }
 
 div#resultado {
-    margin-top: 5vh;
+    margin-top: 2vh;
     /* Usando vh para ajustar a margem com base na altura da viewport */
     width: 90vw;
     /* Usando vw para ajustar a largura com base na largura da viewport */
     margin: 0 auto;
     color: #ffd400;
-    border-radius: 2vw;
-    /* Usando vw para ajustar o raio da borda com base na largura da viewport */
-    font-size: 3vw;
-    /* Usando vw para ajustar o tamanho com base na largura da viewport */
+    border-radius: min(10px, 1.7vw);
+    /* Define o raio máximo de 10px ou 1.7vw */
+    font-size: min(5px, 0.8vw);
+    /* Define o tamanho máximo de 5px ou 0.8vw */
 }
 
 h1#result {
-    font-size: 4vw;
-    /* Usando vw para ajustar o tamanho com base na largura da viewport */
-    padding: 2vw;
-    /* Usando vw para ajustar o preenchimento com base na largura da viewport */
+    font-size: min(30px, 5vw);
+    /* Define o tamanho máximo de 30px ou 5vw */
+    padding: min(10px, 1.7vw);
+    /* Define o tamanho máximo de 10px ou 1.7vw */
     background-color: #f0f0f0;
-    border-radius: 2vw;
-    /* Usando vw para ajustar o raio da borda com base na largura da viewport */
+    border-radius: min(10px, 1.7vw);
+    /* Define o raio máximo de 10px ou 1.7vw */
 }
